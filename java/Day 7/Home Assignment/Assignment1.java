@@ -11,6 +11,9 @@ public class Assignment1 {
             int e=0;
 
            System.out.println(((a+b)*(c-d)/e));
+
+      //Throws Zero Divide Exception Because we divide The expression by zero 
+
     }
     
 }
