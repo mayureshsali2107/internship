@@ -7,6 +7,9 @@ public class Assignment6 {
         if (age==60||age>60) {
             System.out.println("Senior Citizen");
         }
+        else if(age>=18||age<60){
+            System.out.println("Adult");
+        }
         else{
             System.out.println("Child");
         }
