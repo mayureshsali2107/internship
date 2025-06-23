@@ -4,7 +4,7 @@ public class Assignment5 {
         int i =10;
         do { 
             System.out.println(i);
-            
+            i--;
         } while (i>0);
     }    
 }
