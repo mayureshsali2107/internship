@@ -1,0 +1,35 @@
+.box{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    position: relative;
+    transition: all;
+    animation: move 20s ease-in infinite normal forwards;
+
+}
+
+@keyframes move {
+    0%{
+        top: 0;
+        left: 0;
+    }
+    25%{
+        top:0;
+        left: 300px;
+
+    }
+    50%{
+        top: 300px;
+        left: 300px;
+    }
+    75%{
+        top: 300px;
+        left: 0;
+    }
+    100%{
+        top:0;
+        left:0;
+    }
+    
+}

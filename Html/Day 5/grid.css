@@ -1,0 +1,25 @@
+
+.c{
+     display: grid;
+    grid-template-columns: 500px repeat(3,1fr);
+    padding: 20px 20px;
+    border: 2px solid red;
+    row-gap: 20px;
+    column-gap: 20px;
+    
+}
+.c1{border: 2px solid black;
+}
+.c2{border: 2px solid black;}
+.c3{
+border: 2px solid black;
+}
+.c4{border: 2px solid black;}
+.c5{border: 2px solid black;}
+.c6{border: 2px solid black;}
+.c7{border: 2px solid black;}
+.c8{border: 2px solid black;}
+.c9{border: 2px solid black;}
+.c10{border: 2px solid black;}
+.c11{border: 2px solid black;}
+.c12{border: 2px solid black;}

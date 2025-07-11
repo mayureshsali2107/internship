@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="contact.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact_Form</title>
+</head>
+
+<body>
+     <div class="menubar1">
+          <div class="head1"><i>
+          Mayuresh</i></div>
+          <div class="menu">
+          <a href="Portfolio.html">Home</a>
+          <a href="">About</a>
+          <a href="">Skills</a>
+          <a href="contact.html">Contact</a>
+         </div>    
+    </div>
+
+<div class="front">
+    <div class="head">
+       <b> Get In Touch </b><br><br><br><br>
+    </div>
+
+    <div class="lab">
+     <form class="contactform">   
+    <label for="firstname">FIRST NAME</label><br>
+    <input type="text" id="firstname" required/><br><br>
+
+    <label for="lastname">LAST NAME</label><br>
+    <input type="text" id="lastname" required/><br><br>
+
+    <label for="Email">EMAIL</label><br>
+    <input type="text" id="Email" required/><br><br>
+    
+    <label for="phone">PHONE NUMBER</label><br>
+    <input type="text" id="phone" required/><br><br>
+
+    <label for="what">WHAT DO YOU HAVE <br> IN MIND</label><br>
+    <textarea id="what" rows="4" placeholder="Enter the Query...." required></textarea><br>
+   
+    <br><br>
+
+    <button class="btn" type="submit"><b>Submit</b></button>
+     </div></form>
+    <p id="message" class="success-msg"></p>
+</div>
+<script>
+    const form =document.getElementById("contactform");
+    const message=document.getElementById("message");
+
+    form.addEventListener('submit',function(e){
+        e.preventDefault();
+        form.reset();
+        message.textContent="Your Query Published Successfully...";
+    });
+
+    
+</script>
+</body>
+</html>
