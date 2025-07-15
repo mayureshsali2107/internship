@@ -54,7 +54,7 @@
   height: 400px;
   border: 3px solid rgb(216, 213, 213);
   border-radius:400px ;
-  margin-top: 100px;
+  margin-top: 130px;
   margin-left: 100px;
   
   
@@ -71,3 +71,21 @@
     margin-top: 100px;
     margin-left: 80px;
 }
+.heading1
+{
+    margin-top: 50px;
+   font-size: 30px; 
+   font-weight: bold;
+   text-decoration: underline rgb(22, 129, 201);
+   color: red;
+   
+}
+.heading1:hover{
+     text-decoration-line: underline;
+    color: rgb(159, 100, 196);
+}
+.p1{
+    font-size:20px;
+    line-height:1.5;
+}
+

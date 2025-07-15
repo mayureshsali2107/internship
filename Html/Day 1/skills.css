@@ -1,0 +1,38 @@
+.menubar{
+   padding: 15px;
+   display:flex; 
+   border-radius: 22px;
+   border-bottom:2px solid rgb(213, 212, 212);
+  
+}
+
+.menu{
+    padding-left: 980px;
+    font-size: 17px;
+    
+}
+
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin: 14px 16px;
+  
+}
+
+.head{
+    font-size: 20px;
+    padding-left: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.head:hover{
+    text-decoration-line: underline;
+    color: rgb(159, 100, 196);
+}
+.head2{
+    font-size: 30px;
+    text-decoration: underline skyblue;
+    color:red;
+   display: flex;
+   justify-content: center;
+}
