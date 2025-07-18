@@ -1,6 +1,6 @@
 Day 2
 
-Date = 17/07/2025
+Date = 16/07/2025
 
 Topic Covered = In JavaScript
 
