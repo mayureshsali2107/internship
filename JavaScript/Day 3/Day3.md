@@ -1,6 +1,6 @@
-Day 2
+Day 3
 
-Date = 17/07/2025
+Date = 18/07/2025
 
 Topic Covered = In JavaScript
                 1] How Function Defined

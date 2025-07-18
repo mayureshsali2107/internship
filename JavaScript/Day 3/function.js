@@ -12,3 +12,7 @@ function print(){
 print1();
 printText();
 print();
+
+
+
+
